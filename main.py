@@ -33,7 +33,7 @@ if data:
             st.write(f"Name: {matched_item['name']}, ID: ", matched_item['id'])
         else:
             st.warning("No close matches found for that name.")
-    else:
-        st.error("Failed to fetch data from the API. Please try again later.")
+else:
+    st.error("Failed to fetch data from the API. Please try again later.")
 
 
